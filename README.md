@@ -7,13 +7,13 @@ First, get LCM 5.3.
 1. Download the source code at [http://research.nii.ac.jp/~uno/code/lcm53.zip](http://research.nii.ac.jp/~uno/code/lcm53.zip).
 2. Compile it, which is written in C.
 3. Put the executable file `lcm` at the same directly 
-with `lcm.cc`.
+with `r_lcm.cc`.
 
 In R, load the Rcpp program as:
 
 ```
 > require(Rcpp)
-> sourceCpp("lcm.cc")
+> sourceCpp("r_lcm.cc")
 ```
 
 Then you can use the lcm by the function `lcm` in R.
